@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-weight: 800;
+}
+
+/* App.css */
+/* App.css */
+
+.app-container {
+  text-align: center;
+  background-image: url('path/to/your/background-image.jpg'); /* Replace with your background image path */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app-title {
+  color: #ffffff; /* Yellow font color */
+  font-family: cursive;
+}
+
+.app-label {
+  color: #86acf3; /* Yellow font color */
+  font-size: large;
+  font-weight: bold;
+}
+
+.app-input {
+  background-color: transparent; /* Make the input background transparent */
+  color: #ffffff; /* Yellow font color */
+  /* border: 1px solid #ffe600; Yellow border */
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0px 0px 10px 2px red;
+  border-radius: 10px;
+}
+.reset {
+  background-color: transparent; /* Make the input background transparent */
+  color: #ffffff; /* Yellow font color */
+  /* border: 1px solid #ffe600; Yellow border */
+  padding: 10px;
+  width: 100px;
+  box-shadow: 0px 0px 10px 2px red;
+  border-radius: 10px;
+}
+
+.app-button {
+  background-color: #ffffff; /* Bootstrap primary button color */
+  color: #e20000; /* Yellow font color */
+  border: 1px solid #007bff; /* Border color matches button background */
+  padding: 10px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.app-button:hover {
+  background-color: #b31717; /* Button color on hover */
+  border: 1px solid #0056b3; /* Border color on hover */
+}
+
+.video-container {
+  border: 2px solid #ffffff; /* Yellow border around the video container */
+  margin-top: 20px;
+}
+
+.app-video {
+  width: 100%; /* Make the video fill its container */
+}
+
+.app-footer {
+  color: #ffffff; /* Yellow font color */
+  margin-top: 20px;
+}
